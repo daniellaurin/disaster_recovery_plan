@@ -4,6 +4,7 @@ DRP for lab 4
 # Disaster Communication Plan for Bank
 
 graph TD
+
     A[Flood Protection Measures] --> B[Infrastructure Upgrades]
     A --> C[Homeowner Programs]
     A --> D[City Planning]
