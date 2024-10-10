@@ -1,66 +1,125 @@
 # disaster_recovery_plan
 DRP for lab 4
 
-# Disaster Communication Plan Template
+# Disaster Communication Plan for Bank
 
-## 1. Identify Likely Disasters
+graph TD
+    A[Flood Protection Measures] --> B[Infrastructure Upgrades]
+    A --> C[Homeowner Programs]
+    A --> D[City Planning]
+    A --> E[Funding and Resources]
 
-- Research common natural disasters or emergencies in your area
-- Examples: floods, hurricanes, earthquakes, wildfires
+    B --> F[Rebuild Storm Pump Stations]
+    B --> G[Increase Pump Capacity]
+    B --> H[Revamp Sewer Systems]
 
-## 2. List Key Contacts
+    C --> I[Sump Pump Installation]
+    C --> J[Backflow Valve Addition]
+    C --> K[Downspout Disconnection]
 
-Create a list of important people to communicate with during an emergency:
+    D --> L[Sewer Master Plan]
+    D --> M[Pilot Projects]
+    D --> N[Water Storage Solutions]
 
-- [ ] Immediate family members
-- [ ] Extended family 
-- [ ] Close friends
-- [ ] Neighbors
-- [ ] Employer/coworkers
-- [ ] Children's school/daycare
-- [ ] Doctor/medical providers
-- [ ] Insurance agent
+    E --> O[Federal Disaster Mitigation Fund]
+    E --> P[Municipal Budget Allocation]
 
-## 3. Determine Communication Methods
+    M --> Q[Tranby Park Redesign]
+    N --> R[Underground Water Storage]
+    N --> S[Tree Planting]
 
-Consider multiple ways to reach each contact:
+    R --> T[Storage under Parking Lots]
 
-- [ ] Cell phones (calls and texts)
-- [ ] Landline phones
-- [ ] Email
-- [ ] Social media
-- [ ] Two-way radios
-- [ ] Satellite phones (for remote areas)
+## 1. Identify Potential Disasters and Impacts
 
-## 4. Establish an Out-of-Area Contact
+- [ ] Natural disasters (e.g., floods, hurricanes, earthquakes)
+- [ ] Power outages
+- [ ] Cyber attacks
+- [ ] Physical security breaches
+- [ ] Pandemic or health crises
 
-- [ ] Choose a friend/relative in a different region as central point of contact
-- [ ] Ensure all family members have this person's contact information
+Assess potential impacts on:
+- Customer services
+- On-premises servers
+- Phone systems
+- ATM networks
+- Online banking platforms
 
-## 5. Create a Contact Card
+## 2. Establish Communication Hierarchy
 
-- [ ] Make a physical card with important phone numbers and addresses
-- [ ] Keep one with you
-- [ ] Distribute copies to family members
+- [ ] Board of Directors
+- [ ] Executive Management
+- [ ] IT Department
+- [ ] Customer Service Representatives
+- [ ] Branch Managers
+- [ ] Security Team
+- [ ] External Vendors and Partners
 
-## 6. Plan for Different Scenarios
+## 3. Internal Communication Methods
 
-Consider how you'll communicate:
+- [ ] Secure messaging system
+- [ ] Company-wide email alerts
+- [ ] Internal phone tree
+- [ ] Emergency notification system
+- [ ] Secure video conferencing platform
 
-- [ ] If separated from family
-- [ ] If power/cell networks are down
-- [ ] If evacuation is necessary
+## 4. External Communication Channels
 
-## 7. Set Up Emergency Alerts
+- [ ] Customer-facing website updates
+- [ ] Social media platforms
+- [ ] Email notifications to customers
+- [ ] SMS alerts for registered customers
+- [ ] Local media outlets for broader announcements
 
-- [ ] Sign up for local emergency alert systems
-- [ ] Download relevant emergency apps
+## 5. Technical Infrastructure Continuity
 
-## 8. Practice Your Plan
+- [ ] Server failover procedures
+- [ ] Data backup and recovery protocols
+- [ ] Alternative power sources (generators)
+- [ ] Remote access capabilities for critical staff
+- [ ] Redundant internet connections
 
-- [ ] Regularly review the plan with family members
-- [ ] Conduct practice drills
+## 6. Phone System Contingencies
+
+- [ ] Cloud-based backup for on-premises phone system
+- [ ] Mobile phone distribution to key personnel
+- [ ] Call forwarding procedures to operational locations
+- [ ] Updated IVR messages for customer information
+
+## 7. Regulatory Compliance and Reporting
+
+- [ ] Procedures for notifying regulatory bodies
+- [ ] Documentation protocols for incident reporting
+- [ ] Customer data protection measures
+- [ ] Financial transaction continuity plans
+
+## 8. Customer Service Continuity
+
+- [ ] Scripts for customer service representatives
+- [ ] FAQ updates for common customer concerns
+- [ ] Alternative transaction processing methods
+- [ ] Procedures for handling time-sensitive operations (e.g., wire transfers, loan payments)
+
+## 9. Emergency Response Team
+
+- [ ] Define roles and responsibilities
+- [ ] Establish chain of command
+- [ ] Create contact list with multiple contact methods
+- [ ] Designate alternates for each key role
+
+## 10. Testing and Training
+
+- [ ] Regular drills for various disaster scenarios
+- [ ] Annual review and update of the communication plan
+- [ ] Cross-training staff on critical communication procedures
+- [ ] Simulations of server and phone system failures
+
+## 11. Post-Incident Analysis
+
+- [ ] Procedures for assessing communication effectiveness
+- [ ] Methods for gathering feedback from staff and customers
+- [ ] Process for incorporating lessons learned into the plan
 
 ---
 
-**Note:** Customize this template based on your specific location, family situation, and the most likely disasters in your area.
+**Note:** This plan should be regularly reviewed, updated, and integrated with the overall business continuity and disaster recovery strategies of the bank.
