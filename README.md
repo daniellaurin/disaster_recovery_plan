@@ -4,31 +4,14 @@ DRP for lab 4
 # Disaster Communication Plan for Bank
 
 graph TD
-    A[Flood Protection Measures] --> B[Infrastructure Upgrades]
-    A --> C[Homeowner Programs]
-    A --> D[City Planning]
-    A --> E[Funding and Resources]
+    A[Enter Chart Definition] --> B(Preview)
+    B --> C{decide}
+    C --> D[Keep]
+    C --> E[Edit Definition]
+    E --> B
+    D --> F[Save Image and Code]
+    F --> B
 
-    B --> F[Rebuild Storm Pump Stations]
-    B --> G[Increase Pump Capacity]
-    B --> H[Revamp Sewer Systems]
-
-    C --> I[Sump Pump Installation]
-    C --> J[Backflow Valve Addition]
-    C --> K[Downspout Disconnection]
-
-    D --> L[Sewer Master Plan]
-    D --> M[Pilot Projects]
-    D --> N[Water Storage Solutions]
-
-    E --> O[Federal Disaster Mitigation Fund]
-    E --> P[Municipal Budget Allocation]
-
-    M --> Q[Tranby Park Redesign]
-    N --> R[Underground Water Storage]
-    N --> S[Tree Planting]
-
-    R --> T[Storage under Parking Lots]
 
 ## 1. Identify Potential Disasters and Impacts
 
