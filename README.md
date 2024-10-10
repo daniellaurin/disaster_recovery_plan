@@ -21,6 +21,24 @@ Design an intuitive, user-friendly security portal:
 └───────────────┴───────────────────┴─────────────────────┘
 ```
 
+```markdown
+┌─────────────────────────────────────────────────────────┐
+│              FLOOD DISASTER RESPONSE PORTAL             │
+├───────────────┬───────────────────┬─────────────────────┤
+│ FLOOD         │ COMMUNICATION     │ ALERTS & UPDATES    │
+│ PROCEDURES    │ CHANNELS          │                     │
+├───────────────┼───────────────────┼─────────────────────┤
+│ • Pump        │ • Staff Emergency │ • Flood Warnings    │
+│   Activation  │   Notifications   │ • Water Levels      │
+│ • Data Center │ • Customer Alerts │ • Branch Closures   │
+│   Protection  │ • Local Authority │ • Road Conditions   │
+│ • Evacuation  │   Coordination    │                     │
+├───────────────┼───────────────────┼─────────────────────┤
+│ REPORT        │ FLOOD MITIGATION  │ EMERGENCY CONTACTS  │
+│ FLOODING      │ RESOURCES         │                     │
+└───────────────┴───────────────────┴─────────────────────┘
+```
+
 
 # Disaster Communication Plan for Bank
 
