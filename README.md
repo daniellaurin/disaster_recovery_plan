@@ -1,12 +1,31 @@
 # disaster_recovery_plan
 DRP for lab 4
 
+Design an intuitive, user-friendly security portal:
+
+```markdown
+┌─────────────────────────────────────────────────────────┐
+│              DISASTER COMMUNICATION PORTAL              │
+├───────────────┬───────────────────┬─────────────────────┤
+│ EMERGENCY     │ COMMUNICATION     │ ALERTS & UPDATES    │
+│ PROCEDURES    │ CHANNELS          │                     │
+├───────────────┼───────────────────┼─────────────────────┤
+│ • Server      │ • Internal Comms  │ • Current Threats   │
+│   Failover    │ • Customer Alerts │ • System Status     │
+│ • Data Backup │ • Regulatory      │ • Branch Updates    │
+│ • Evacuation  │   Reporting       │                     │
+├───────────────┼───────────────────┼─────────────────────┤
+│ REPORT AN     │ RECOVERY TOOLS    │ EMERGENCY CONTACTS  │
+│ INCIDENT      │                   │                     │
+└───────────────┴───────────────────┴─────────────────────┘
+```
+
+
 # Disaster Communication Plan for Bank
 
 ```mermaid
 graph TD
     A[Flood Protection Measures] --> B[Infrastructure Upgrades]
-    A --> C[Homeowner Programs]
     A --> D[City Planning]
     A --> E[Funding and Resources]
 
